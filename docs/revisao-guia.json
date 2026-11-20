@@ -1,0 +1,13 @@
+{
+  "data": "2026-11-16",
+  "revisor": "guia_portao_publicacao, Codex assinatura contexto novo",
+  "veredito": "aprovado",
+  "nota": 9,
+  "defeitos": [],
+  "migracao": {
+    "revisor": "revisor_migracao — Codex assinatura contexto novo",
+    "nota": 9,
+    "veredito": "aprovado",
+    "defeitos": []
+  }
+}

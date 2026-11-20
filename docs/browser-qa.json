@@ -1,0 +1,128 @@
+[
+  {
+    "lang": "pt-BR",
+    "width": 320,
+    "overflow": 0,
+    "broken": [],
+    "h1": "O fim do software de escritório"
+  },
+  {
+    "lang": "pt-BR",
+    "width": 390,
+    "overflow": 0,
+    "broken": [],
+    "h1": "O fim do software de escritório"
+  },
+  {
+    "lang": "pt-BR",
+    "width": 768,
+    "overflow": 0,
+    "broken": [],
+    "h1": "O fim do software de escritório"
+  },
+  {
+    "lang": "pt-BR",
+    "width": 1440,
+    "overflow": 0,
+    "broken": [],
+    "h1": "O fim do software de escritório"
+  },
+  {
+    "theme": "dark",
+    "navBg": "rgb(12, 12, 16)",
+    "navLink": "rgb(154, 154, 166)"
+  },
+  {
+    "theme": "light",
+    "navBg": "rgb(246, 247, 249)",
+    "navLink": "rgb(91, 91, 104)"
+  },
+  {
+    "lang": "",
+    "firstFocus": "Entender a mudança"
+  },
+  {
+    "lang": "en",
+    "width": 320,
+    "overflow": 0,
+    "broken": [],
+    "h1": "The end of office software"
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "overflow": 0,
+    "broken": [],
+    "h1": "The end of office software"
+  },
+  {
+    "lang": "en",
+    "width": 768,
+    "overflow": 0,
+    "broken": [],
+    "h1": "The end of office software"
+  },
+  {
+    "lang": "en",
+    "width": 1440,
+    "overflow": 0,
+    "broken": [],
+    "h1": "The end of office software"
+  },
+  {
+    "theme": "dark",
+    "navBg": "rgb(12, 12, 16)",
+    "navLink": "rgb(154, 154, 166)"
+  },
+  {
+    "theme": "light",
+    "navBg": "rgb(246, 247, 249)",
+    "navLink": "rgb(91, 91, 104)"
+  },
+  {
+    "lang": "en/",
+    "firstFocus": "Understand the change"
+  },
+  {
+    "lang": "es",
+    "width": 320,
+    "overflow": 0,
+    "broken": [],
+    "h1": "El fin del software de oficina"
+  },
+  {
+    "lang": "es",
+    "width": 390,
+    "overflow": 0,
+    "broken": [],
+    "h1": "El fin del software de oficina"
+  },
+  {
+    "lang": "es",
+    "width": 768,
+    "overflow": 0,
+    "broken": [],
+    "h1": "El fin del software de oficina"
+  },
+  {
+    "lang": "es",
+    "width": 1440,
+    "overflow": 0,
+    "broken": [],
+    "h1": "El fin del software de oficina"
+  },
+  {
+    "theme": "dark",
+    "navBg": "rgb(12, 12, 16)",
+    "navLink": "rgb(154, 154, 166)"
+  },
+  {
+    "theme": "light",
+    "navBg": "rgb(246, 247, 249)",
+    "navLink": "rgb(91, 91, 104)"
+  },
+  {
+    "lang": "es/",
+    "firstFocus": "Entender el cambio"
+  }
+]

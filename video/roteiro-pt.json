@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "chapter": "Do software à inteligência operacional",
+    "title": "O fim do software de escritório",
+    "kind": "statement",
+    "labels": [
+      "VOCÊ TRABALHA PARA ALIMENTAR SOFTWARES?"
+    ],
+    "takeaway": "VOCÊ TRABALHA PARA ALIMENTAR SOFTWARES?",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "Você passa o dia preparando planilhas, relatórios e apresentações, enquanto as decisões e o atendimento ao cliente ficam esperando. O fim do software de escritório começa nessa perda de tempo. Vou mostrar como trabalhar pelo resultado e conferir o que a inteligência artificial entrega."
+  },
+  {
+    "id": 2,
+    "chapter": "Do software à inteligência operacional",
+    "title": "O trabalho escondido",
+    "kind": "statement",
+    "labels": [
+      "PARA QUÊ? PARA QUEM?"
+    ],
+    "takeaway": "PARA QUÊ? PARA QUEM?",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "Uma empresa quer recuperar clientes. Antes de falar com alguém, uma pessoa exporta o cadastro. Outra arruma a planilha. Outra monta os slides. Depois vem a reunião para explicar o que aconteceu. Existe um exército de preparação entre o problema e a ação."
+  },
+  {
+    "id": 3,
+    "chapter": "Do software à inteligência operacional",
+    "title": "A inteligência participa",
+    "kind": "statement",
+    "labels": [
+      "A IA PARTICIPA DO TRABALHO"
+    ],
+    "takeaway": "A IA PARTICIPA DO TRABALHO",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "A inteligência artificial já consegue interpretar pedidos em linguagem comum e consultar informações quando tem acesso autorizado. Ela pode ajudar a comparar alternativas e preparar uma ação. Você deixa de carregar informação de uma tela para outra. Passa a orientar o trabalho e conferir o resultado."
+  },
+  {
+    "id": 4,
+    "chapter": "Do software à inteligência operacional",
+    "title": "Passo 1: o resultado",
+    "kind": "statement",
+    "labels": [
+      "PASSO 1 · DEFINA O RESULTADO"
+    ],
+    "takeaway": "PASSO 1 · DEFINA O RESULTADO",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "Passo um de três, no mesmo exemplo. Em vez de pedir uma planilha bonita, diga: quero identificar os clientes que precisam de atenção nesta semana. Para a equipe comercial decidir quem vai atender. A pergunta mudou. O formato será escolhido depois."
+  },
+  {
+    "id": 5,
+    "chapter": "Do software à inteligência operacional",
+    "title": "Passo 2: o contexto",
+    "kind": "statement",
+    "labels": [
+      "PASSO 2 · CONECTE O CONTEXTO"
+    ],
+    "takeaway": "PASSO 2 · CONECTE O CONTEXTO",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "Passo dois. Entregue os registros que podem ser usados e explique o critério. Peça que a inteligência mostre de onde tirou cada conclusão e separe informação ausente de oportunidade real. Um cadastro desatualizado continua desatualizado com inteligência artificial. Resposta convincente não é prova."
+  },
+  {
+    "id": 6,
+    "chapter": "Do software à inteligência operacional",
+    "title": "Passo 3: a execução",
+    "kind": "statement",
+    "labels": [
+      "PASSO 3 · ACOMPANHE A AÇÃO"
+    ],
+    "takeaway": "PASSO 3 · ACOMPANHE A AÇÃO",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "Passo três, o que costuma ficar para trás. Transforme a recomendação em uma proposta com responsável e prazo. A pessoa responsável aprova o contato. A inteligência acompanha o retorno, se estiver conectada e autorizada. A reunião passa a discutir escolhas. A apresentação passa a existir quando alguém precisa entender."
+  },
+  {
+    "id": 7,
+    "chapter": "Do software à inteligência operacional",
+    "title": "A prova possível",
+    "kind": "statement",
+    "labels": [
+      "EXEMPLO DIDÁTICO · NÃO É MEDIÇÃO"
+    ],
+    "takeaway": "EXEMPLO DIDÁTICO · NÃO É MEDIÇÃO",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "No exemplo do kit, um cliente aparece duas vezes e outro tem informação faltando. Você consegue conferir cada linha e impedir uma recomendação errada. Essa é a prova que interessa: o resultado se sustenta nos dados. Depois meça o tempo total, incluindo conferir e corrigir. Produzir mais documentos não prova que o negócio melhorou."
+  },
+  {
+    "id": 8,
+    "chapter": "Do software à inteligência operacional",
+    "title": "Empresas e funções",
+    "kind": "statement",
+    "labels": [
+      "O VALOR MUDA DE LUGAR"
+    ],
+    "takeaway": "O VALOR MUDA DE LUGAR",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "Minha visão é que empresas que vivem de telas e preenchimento vão enfrentar pressão. Algumas podem perder mercado. Equipes podem ser reduzidas, e funções podem mudar. Isso é um cenário, não uma lista de falências anunciadas. O estudo da Organização Internacional do Trabalho aponta exposição das tarefas administrativas e transformação do trabalho. Não decreta o desaparecimento de todos esses empregos."
+  },
+  {
+    "id": 9,
+    "chapter": "Do software à inteligência operacional",
+    "title": "O que permanece",
+    "kind": "statement",
+    "labels": [
+      "DADOS · REGRAS · RESPONSABILIDADE"
+    ],
+    "takeaway": "DADOS · REGRAS · RESPONSABILIDADE",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "O software continua guardando dados, aplicando regras e executando funções. A mudança é de posição. A inteligência pode coordenar essas peças. Você continua responsável pelo objetivo, pelas escolhas e pelo que autoriza. Em uma empresa, isso exige informação confiável e processos redesenhados. Comprar acesso a um robô de conversa não faz essa transformação sozinho."
+  },
+  {
+    "id": 10,
+    "chapter": "Do software à inteligência operacional",
+    "title": "Você está dentro?",
+    "kind": "statement",
+    "labels": [
+      "PENSE PELO RESULTADO · INEMA.CLUB"
+    ],
+    "takeaway": "PENSE PELO RESULTADO · INEMA.CLUB",
+    "source": "Visão autoral de Nei Maldaner; docs/visao-original.md; OIT 2025",
+    "svg": null,
+    "speech": "Agora você tem o ponto de partida. Escolha uma preparação repetitiva, defina o resultado e teste com um exemplo que consiga conferir. O guia O fim do software de escritório e o kit estão grátis no inema ponto club, direto na internet. Você ainda organiza seu dia para alimentar ferramentas ou já prepara sua forma de trabalhar para esse novo mundo?"
+  }
+]

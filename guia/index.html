@@ -1,0 +1,338 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>O fim do software de escritório | Nei Maldaner · INEMA</title><meta name="description" content="Da operação de Office e CRM à inteligência operacional: visão, exemplos, impacto nas funções e kit gratuito para trabalhar pelo resultado."><meta name="theme-color" content="#0c0c10"><meta property="og:title" content="O fim do software de escritório"><meta property="og:description" content="Você ainda trabalha para alimentar ferramentas? Aprenda a começar pelo resultado."><meta property="og:image" content="https://inematds.github.io/o-fim-do-software-de-escritorio/guia/assets/banner.jpg"><link rel="canonical" href="https://inematds.github.io/o-fim-do-software-de-escritorio/guia/"><link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/o-fim-do-software-de-escritorio/guia/"><link rel="alternate" hreflang="en" href="https://inematds.github.io/o-fim-do-software-de-escritorio/guia/en/"><link rel="alternate" hreflang="es" href="https://inematds.github.io/o-fim-do-software-de-escritorio/guia/es/"><link rel="alternate" hreflang="x-default" href="https://inematds.github.io/o-fim-do-software-de-escritorio/guia/"><link rel="icon" href="assets/logo.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet"><style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(226,162,59,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:760px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(226,162,59,.22),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.18rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:34ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;height:auto;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:62ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.92rem;margin:0}
+  .num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:8px;background:rgba(226,162,59,.14);color:var(--amb);font-family:Sora;font-weight:800;font-size:.9rem;margin-bottom:.7em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0}
+  pre .c{color:#6f6f7c} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div,.card{min-width:0}
+  p code,li code,td code{overflow-wrap:anywhere}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .7em}
+  .ex{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:680px){.ex{grid-template-columns:1fr}}
+  .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .ex figure img{width:100%;height:auto;display:block}
+  .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .phase:last-child{border:none}
+  .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
+  .phase .d strong{display:block;margin-bottom:.2em}
+  .phase .d span{color:var(--mut);font-size:.92rem}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+
+
+:root{--btn-ink:#1a1206;--code-bg:#0a0a0e;--code-txt:#e9e9ee;--focus:#FACC15;--glow:rgba(250,204,21,.12)}
+body.light{--amb:#854d0e;--focus:#854d0e;--glow:rgba(250,204,21,.15)}
+*{scroll-margin-top:120px}body{font-size:16px;line-height:1.7}main p,main li{max-width:74ch}main p{margin:1em 0}main ul,main ol{padding-left:24px;margin:16px 0}h2{margin-bottom:24px;line-height:1.2}h3{margin:32px 0 12px;line-height:1.2;font-family:Sora}a{text-underline-offset:4px}a:hover{text-decoration:underline}a:active,button:active{transform:translateY(1px)}:focus-visible{outline:3px solid var(--focus);outline-offset:4px}.skip{position:absolute;top:-100px;left:16px;background:var(--bg);padding:12px;z-index:100}.skip:focus{top:8px}.chip{font-size:.75rem}.wrap{max-width:1160px}.hero .wrap{display:block;padding-top:64px}.hero h1{max-width:21ch;font-size:clamp(2.1rem,5vw,3.6rem);line-height:1.1}.hero p.lead{max-width:65ch}.hero figure{margin-top:32px;max-width:1160px}.hero figure img{aspect-ratio:1400/788;object-fit:cover}.wide{margin:32px 0 0}.wide img{width:100%;height:auto;display:block;border-radius:16px}.wide figcaption{font-size:.9rem;color:var(--mut);margin-top:8px}.table-wrap{overflow-x:auto;margin:24px 0;border:1px solid var(--line);border-radius:12px}table{width:100%;border-collapse:collapse;min-width:640px;text-align:left}th,td{padding:16px;border-bottom:1px solid var(--line);vertical-align:top}th{font-family:Sora;background:var(--bg2);font-size:.9rem}td{font-size:1rem}tr:last-child td{border:0}.techhead,.techzone{background:var(--bg2)}.techhead{border-top:1px solid var(--amb);padding:48px 0 0}.techzone section{background:var(--bg2)}pre{background:var(--code-bg);color:var(--code-txt);white-space:pre-wrap;overflow-wrap:anywhere;font-size:.9rem}.hero .glow{background:radial-gradient(closest-side,var(--glow),transparent 70%)}.btn{min-height:44px;display:inline-flex;align-items:center}.btn:not(.ghost){background:var(--focus);color:var(--btn-ink)}body.light .btn:not(.ghost){background:var(--focus);color:var(--txt);background:#FACC15}.tgl{width:44px;height:44px;flex-shrink:0}.lang a{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}.downloads{display:flex;gap:16px;flex-wrap:wrap}.downloads a{padding:12px 0}.brand{font-size:.95rem;max-width:22ch;white-space:normal}.lang{display:flex;gap:8px}nav .wrap{min-height:72px;height:auto;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}nav .links{flex-wrap:wrap}.sep{margin:0 4px}.clubpro{white-space:nowrap}.hero .cta{gap:16px}summary{cursor:pointer;min-height:44px;padding:12px 0;color:var(--amb);font-weight:700}details{border-block:1px solid var(--line);margin:24px 0}#conteudo{scroll-margin-top:120px}.muted{color:var(--mut)}@media(max-width:820px){nav .links .sec{display:none}.hero .wrap,section .wrap,footer .wrap{padding-left:16px;padding-right:16px}section{padding:40px 0}.hero .wrap{padding-top:40px}.brand{max-width:18ch}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}@media print{nav,.hero .cta,.tgl{display:none}body{background:white;color:black}.hero .wrap,section{padding-top:24px;padding-bottom:24px}.table-wrap{overflow:visible}a{color:inherit}section{break-inside:auto}}
+nav{background:var(--bg)}
+section .wrap{display:flow-root}.topico{float:right;width:min(38%,400px);margin:4px 0 16px 32px}.topico img{aspect-ratio:3/2;object-fit:cover;border-radius:12px}.topico figcaption{font-size:.8rem;line-height:1.4}.table-wrap{clear:both}.topico:has(+h2+.table-wrap){width:min(30%,280px)}@media(max-width:820px){.topico{width:42%;margin:4px 0 8px 16px}.topico figcaption{display:none}}</style></head><body><a class="skip" href="#conteudo">Pular para o conteúdo</a><nav aria-label="Navegação principal"><div class="wrap"><a class="brand" href="#top">O fim do software de escritório</a><span class="sep">|</span><span class="clubpro"><a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a> · <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a></span><div class="links"><a class="sec" href="#comparacao">O que muda</a><a class="sec" href="#plano">Como se preparar</a><a class="sec" href="#tecnico">Kit (técnico)</a><span class="lang"><a class="on" href="./" lang="pt">PT</a><a href="en/" lang="en">EN</a><a href="es/" lang="es">ES</a></span><button class="tgl" id="themeToggle" aria-label="Alternar tema claro e escuro">☀</button></div></div></nav><header class="hero" id="top"><div class="glow"></div><div class="wrap"><span class="chip">Visão de Nei Maldaner · INEMA</span><h1>O fim do software de <span class="amb">escritório</span></h1><p class="lead">Você gasta o dia alimentando ferramentas enquanto as decisões ficam esperando? Aprenda a trabalhar pelo resultado, com a IA participando da análise e da execução.</p><div class="cta"><a class="btn" href="#pergunta">Entender a mudança</a><a class="btn ghost" href="#tecnico">Usar o kit gratuito</a></div><figure><img src="assets/banner.jpg" width="1400" height="788" fetchpriority="high" alt="O fim do software de escritório: Office, CRM, reuniões e relatórios conectados pela IA"></figure></div></header><main id="conteudo"><section id="resumo"><div class="wrap"><h2>Em resumo</h2>
+<p>O fim do software de escritório é uma visão de Nei Maldaner sobre trabalhar com inteligência artificial a partir dos objetivos do negócio. É para profissionais, gestores e donos de empresas que gastam tempo preparando materiais, preenchendo sistemas e repetindo informações. O guia mostra como passar desse trabalho de preparação para um processo de decisão e execução acompanhada. Você encontra exemplos, um plano de transição e um kit gratuito para testar um processo com dados fictícios. Para começar, basta ler e escolher uma tarefa que você conheça bem.</p>
+<figure class="wide"><img src="assets/banner-grade.jpg" width="1400" height="788" alt="Planilha, documento, apresentação, CRM, reunião e indicadores conectados a um resultado" loading="lazy"><figcaption>As ferramentas se organizam em torno do trabalho que precisa acontecer.</figcaption></figure></div></section><section id="video"><div class="wrap"><h2>Entenda a visão em vídeo</h2><p>Nova versão: a transformação do trabalho. Voz e legendas em português.</p><video controls playsinline preload="none" poster="../videos/capa-transformacao.jpg" style="display:block;width:100%;aspect-ratio:16/9;background:#000"><source src="https://github.com/inematds/o-fim-do-software-de-escritorio/releases/download/video-v2.0.0/fim-software-transformacao.mp4" type="video/mp4"><track kind="subtitles" src="../videos/legendas-pt.vtt" srclang="pt" label="Português" default><a href="https://github.com/inematds/o-fim-do-software-de-escritorio/releases/download/video-v2.0.0/fim-software-transformacao.mp4">Assistir ao vídeo</a></video><a class="btn" href="../videos/">Assistir ao vídeo</a></div><p><a href="https://www.youtube.com/watch?v=35dzlcnXXgQ">Assistir à nova versão no YouTube</a> · <a href="https://www.youtube.com/watch?v=HzwV8EIISms">Primeira versão no YouTube</a></p></section><section id="pergunta"><div class="wrap"><figure class="wide topico" data-topico="pergunta"><img src="assets/topicos/pergunta.jpg" width="1200" height="676" alt="Antes da ferramenta, a pergunta: qual resultado você precisa?" loading="lazy" decoding="async"><figcaption>Antes da ferramenta, a pergunta: qual resultado você precisa?</figcaption></figure><h2>A pergunta que muda o trabalho</h2>
+<p>Você quer uma planilha ou quer saber por que a margem caiu? Quer uma apresentação ou quer que uma equipe compreenda uma decisão? Quer um CRM ou quer cuidar melhor dos relacionamentos? Quer uma reunião ou precisa resolver uma divergência?</p>
+<p>As ferramentas deram forma ao escritório. Os departamentos passaram a organizar o dia em torno do preenchimento de telas, da consolidação de dados e da produção de documentos. Parte desse esforço existe porque a informação estava fragmentada e precisava ser transportada por pessoas.</p>
+<p>A visão deste projeto começa pelo objetivo. Você explica o que precisa realizar, para quem, com quais informações e sob quais limites. A inteligência artificial ajuda a compreender o contexto, propõe caminhos e usa ferramentas quando tem acesso autorizado. Você avalia a proposta e o resultado.</p>
+<p><strong>O critério de valor passa a ser a decisão ou ação que melhorou, e a evidência dessa melhora.</strong> O arquivo produzido é uma representação que deve servir a esse objetivo.</p>
+</div></section><section id="comparacao"><div class="wrap"><figure class="wide topico" data-topico="comparacao"><img src="assets/topicos/comparacao.jpg" width="1200" height="676" alt="Do dia ocupado com telas ao dia organizado em torno da decisão." loading="lazy" decoding="async"><figcaption>Do dia ocupado com telas ao dia organizado em torno da decisão.</figcaption></figure><h2>Office, CRM e reuniões: o que muda</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Tabela com rolagem horizontal"><table>
+<thead>
+<tr>
+<th>Trabalho habitual</th>
+<th>Necessidade que ele atende</th>
+<th>Pedido orientado pelo resultado</th>
+<th>O que conferir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Planilha de vendas</td>
+<td>Entender desempenho e agir</td>
+<td>Identifique onde perdemos margem e compare explicações</td>
+<td>Origem dos valores, fórmulas, período e dados ausentes</td>
+</tr>
+<tr>
+<td>Relatório mensal</td>
+<td>Mostrar o que exige atenção</td>
+<td>Mostre os desvios relevantes, as evidências e as opções</td>
+<td>Conclusões rastreáveis e limites da análise</td>
+</tr>
+<tr>
+<td>Apresentação</td>
+<td>Fazer alguém compreender e decidir</td>
+<td>Explique a proposta para este público e facilite a escolha</td>
+<td>Compreensão do destinatário e decisão possível</td>
+</tr>
+<tr>
+<td>CRM, cadastro de relacionamento</td>
+<td>Cuidar de clientes e oportunidades</td>
+<td>Identifique quem precisa de atenção e proponha próximos passos</td>
+<td>Consentimento, histórico e responsável pela ação</td>
+</tr>
+<tr>
+<td>Reunião de atualização</td>
+<td>Compartilhar contexto e coordenar</td>
+<td>Prepare o contexto antes; leve à reunião só as escolhas pendentes</td>
+<td>Questão que exige conversa, responsável e prazo</td>
+</tr>
+<tr>
+<td>Ata</td>
+<td>Preservar decisões e compromissos</td>
+<td>Registre o que foi decidido, por quê e como acompanhar</td>
+<td>Concordância dos envolvidos e registro fiel</td>
+</tr>
+<tr>
+<td>E-mail de cobrança interna</td>
+<td>Resolver atraso e dependência</td>
+<td>Mostre o que impede a entrega e proponha o próximo movimento</td>
+<td>Causa real, destinatário e autorização de envio</td>
+</tr>
+</tbody>
+</table></div>
+<p>Um documento ainda pode ser a melhor saída. Uma planilha permite conferir cálculos; um contrato precisa ser registrado; uma apresentação pode ajudar a negociar. O formato é escolhido pela finalidade e por quem precisa recebê-lo.</p>
+</div></section><section id="exemplo"><div class="wrap"><figure class="wide topico" data-topico="exemplo"><img src="assets/topicos/exemplo.jpg" width="1200" height="676" alt="O exemplo termina numa ação concreta: falar com o cliente certo." loading="lazy" decoding="async"><figcaption>O exemplo termina numa ação concreta: falar com o cliente certo.</figcaption></figure><h2>Uma empresa, do problema à ação</h2>
+<p><strong>Exemplo didático com dados fictícios. Nenhuma economia de tempo ou aumento de vendas foi medido neste exemplo.</strong></p>
+<p>Uma empresa quer retomar relacionamentos com clientes. A rotina atual começa exportando o cadastro, copiando vendas para uma planilha, procurando mensagens e montando slides. A reunião acontece antes de alguém assumir a próxima ação.</p>
+<h3>1. Defina o resultado e o destinatário</h3>
+<p>“Quero que a responsável comercial decida quem precisa de atenção nesta semana. A saída deve mostrar evidências e deixar claras as informações que faltam.” Isso define uma decisão que alguém pode tomar. “Faça um relatório completo” deixa esse critério em aberto.</p>
+<p>Defina também o que conta como pronto: cada recomendação precisa apontar o registro usado; casos incompletos precisam aparecer; nenhuma mensagem será enviada durante o teste.</p>
+<h3>2. Organize o contexto necessário</h3>
+<p>Separe os dados permitidos, a data de referência e as regras de negócio. Explique o significado de cada campo. Pergunte se o registro de contato inclui telefonemas e conversas presenciais. Ausência de contato no sistema não prova ausência de relacionamento.</p>
+<p>A IA pode ajudar a resumir o histórico e propor hipóteses. O critério “sem contato há mais de 30 dias” pode ser calculado por uma rotina comum. Use cálculo verificável para regras fixas e julgamento assistido onde existem ambiguidades.</p>
+<h3>3. Decida, execute e acompanhe</h3>
+<p>A responsável confere a lista e decide a abordagem. Havendo integração autorizada, a ação pode ser registrada no sistema. O acompanhamento precisa de prazo, dono e evidência de retorno. Um contato não realizado deve continuar aparecendo como pendente.</p>
+<p>O trabalho se fecha quando a decisão gera uma ação acompanhada. Uma resposta do chat ou uma tarefa escrita não comprova que isso aconteceu.</p>
+</div></section><section id="capacidade"><div class="wrap"><figure class="wide topico" data-topico="capacidade"><img src="assets/topicos/capacidade.jpg" width="1200" height="676" alt="A conversa com IA existe; dados, permissões e conexões precisam ser preparados." loading="lazy" decoding="async"><figcaption>A conversa com IA existe; dados, permissões e conexões precisam ser preparados.</figcaption></figure><h2>O que a IA já faz e o que exige preparação</h2>
+<p><strong>Capacidade disponível:</strong> modelos atuais interpretam pedidos em linguagem comum, resumem conteúdo e ajudam a comparar alternativas. A qualidade depende da tarefa e da verificação. Produtos como o Microsoft Copilot conectam assistência ao contexto organizacional; veja a <a href="https://www.microsoft.com/en-us/copilot/features/work-iq">descrição oficial de Work IQ</a>.</p>
+<p><strong>Implantação necessária:</strong> recuperar o histórico certo, respeitar permissões, consultar sistemas e executar ações exige dados organizados, conexões e regras. Ter um chatbot aberto não dá acesso automático a toda a empresa. Uma conversa não mantém acompanhamento contínuo se nenhum mecanismo de execução e monitoramento estiver configurado.</p>
+<p><strong>Visão proposta:</strong> uma camada de inteligência pode coordenar essas peças e escolher como apresentar o resultado. O documento autoral preservado neste repositório explica essa direção. Esta página entrega um método de teste e materiais; ela não instala um sistema autônomo na empresa.</p>
+</div></section><section id="arquitetura"><div class="wrap"><figure class="wide topico" data-topico="arquitetura"><img src="assets/topicos/arquitetura.jpg" width="1200" height="676" alt="Conhecimento, inteligência, ação e verificação, uma camada sobre a outra." loading="lazy" decoding="async"><figcaption>Conhecimento, inteligência, ação e verificação, uma camada sobre a outra.</figcaption></figure><h2>A organização com inteligência operacional</h2>
+<p>Inteligência operacional, neste guia, significa usar informação e IA para entender uma situação, apoiar uma decisão, coordenar a ação e verificar o resultado.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Tabela com rolagem horizontal"><table>
+<thead>
+<tr>
+<th>Camada</th>
+<th>Função</th>
+<th>Pergunta prática</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conhecimento</td>
+<td>Recuperar registros confiáveis e o histórico relevante</td>
+<td>Onde está o dado e quando foi atualizado?</td>
+</tr>
+<tr>
+<td>Inteligência</td>
+<td>Relacionar dados, formular hipóteses e comparar alternativas</td>
+<td>Qual evidência sustenta esta recomendação?</td>
+</tr>
+<tr>
+<td>Execução</td>
+<td>Realizar a ação usando ferramentas conectadas</td>
+<td>O que foi autorizado e como comprovar que aconteceu?</td>
+</tr>
+<tr>
+<td>Representação</td>
+<td>Explicar conforme o público e a decisão</td>
+<td>Quem precisa entender e em qual formato?</td>
+</tr>
+<tr>
+<td>Governança</td>
+<td>Definir acesso, aprovação, registro e responsabilidade</td>
+<td>Quem responde pela decisão e pode interromper a ação?</td>
+</tr>
+</tbody>
+</table></div>
+<p>Essas camadas podem estar distribuídas por sistemas diferentes. Um banco de dados, um ERP financeiro (sistema integrado de gestão usado para finanças) e uma ferramenta de comunicação continuam sendo úteis. É possível começar com um arquivo exportado e um teste manual, antes de conectar qualquer sistema.</p>
+<p>A memória precisa preservar decisões e motivos, distinguir pessoas e projetos e recuperar a versão correta. Guarde também a fonte de cada conclusão. Um histórico extenso e contraditório pode piorar a resposta.</p>
+</div></section><section id="destinatario"><div class="wrap"><figure class="wide topico" data-topico="destinatario"><img src="assets/topicos/destinatario.jpg" width="1200" height="676" alt="Cada entrega começa por quem vai decidir ou agir com ela." loading="lazy" decoding="async"><figcaption>Cada entrega começa por quem vai decidir ou agir com ela.</figcaption></figure><h2>Para que e para quem é cada entrega?</h2>
+<p>Antes de pedir qualquer material, responda:</p>
+<ol>
+<li>Qual pessoa precisa tomar qual decisão ou realizar qual ação?</li>
+<li>O que essa pessoa já sabe e o que ainda precisa compreender?</li>
+<li>Quais evidências são necessárias para confiar na proposta?</li>
+<li>O que precisa ficar registrado e o que pode ser uma conversa curta?</li>
+<li>Como vamos descobrir se a entrega foi útil?</li>
+</ol>
+<p>Para a diretoria, uma página com alternativas pode bastar. Para quem executa, uma instrução com critério e exemplo costuma ser mais útil. Para um cliente, uma explicação visual pode esclarecer melhor que uma tabela. Pergunte ao destinatário se ele conseguiu agir.</p>
+<p>Uma reunião tem valor quando há negociação, conflito, criação conjunta ou uma escolha que exige diálogo. Envie o contexto antes. Abra a conversa pela decisão pendente. Feche com responsáveis, prazos e motivos registrados. Relacionamentos e confiança também precisam de tempo humano.</p>
+</div></section><section id="software"><div class="wrap"><figure class="wide topico" data-topico="software"><img src="assets/topicos/software.jpg" width="1200" height="676" alt="Produtos que vivem de telas e campos sentem a pressão primeiro." loading="lazy" decoding="async"><figcaption>Produtos que vivem de telas e campos sentem a pressão primeiro.</figcaption></figure><h2>O impacto nas empresas de software</h2>
+<p>A tese deste projeto prevê pressão sobre produtos cujo valor depende de obrigar pessoas a navegar por telas e alimentar campos. Quando a IA consegue coordenar esse trabalho, o cliente pode questionar assinaturas, número de usuários e o preço cobrado por tarefas intermediárias.</p>
+<p><strong>Cenário:</strong> fornecedores que não se adaptarem podem perder mercado ou encerrar atividades. Isso não permite afirmar quais empresas vão quebrar nem em que data. Integração difícil, contratos, confiabilidade e hábitos podem manter aplicações relevantes por muito tempo.</p>
+<p>Há caminhos de adaptação: expor operações para agentes com permissões, cobrar por resultados verificáveis, melhorar a qualidade dos dados e resolver problemas especializados. Os fornecedores estabelecidos também podem liderar essa mudança. A existência de soluções como Work IQ mostra que a reação já faz parte da disputa.</p>
+<p>Para quem compra software, avalie o custo total por processo resolvido: assinatura, integração, revisão, erros, manutenção e troca de fornecedor. Preserve a capacidade de exportar os dados. Substitua um sistema só depois de provar que a alternativa cobre a função, os registros e as exceções.</p>
+</div></section><section id="pessoas"><div class="wrap"><figure class="wide topico" data-topico="pessoas"><img src="assets/topicos/pessoas.jpg" width="1200" height="676" alt="Menos preparação manual, mais tempo para relações e exceções." loading="lazy" decoding="async"><figcaption>Menos preparação manual, mais tempo para relações e exceções.</figcaption></figure><h2>Pessoas, funções e o exército de preparação</h2>
+<p>A preparação manual sustenta muitas funções: consolidar informações, conferir versões, atualizar cadastros, elaborar materiais e cobrar retornos. Quando essas tarefas mudam, a distribuição do trabalho e a demanda por profissionais também podem mudar.</p>
+<p><strong>Cenário:</strong> algumas empresas podem enxugar equipes; outras podem ampliar o atendimento com a capacidade liberada. Uma tarefa automatizável não equivale a um cargo inteiro dispensável. Atendimento, julgamento, negociação, responsabilidade e conhecimento do negócio podem continuar decisivos.</p>
+<p>A <a href="https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure">OIT, no estudo de exposição ocupacional de 2025</a>, destaca a exposição das ocupações administrativas e considera a transformação dos empregos um efeito mais provável que a substituição integral. Exposição é uma medida de tarefas afetáveis, não uma previsão de demissões.</p>
+<p>A liderança precisa redesenhar funções junto com quem faz o trabalho: descobrir exceções, criar tempo para aprender e acompanhar qualidade e carga. A retirada de uma função sem preservar o conhecimento que ela carregava pode apenas deslocar o problema.</p>
+</div></section><section id="preparar"><div class="wrap"><figure class="wide topico" data-topico="preparar"><img src="assets/topicos/preparar.jpg" width="1200" height="676" alt="Pensar diferente começa por escrever a finalidade da tarefa." loading="lazy" decoding="async"><figcaption>Pensar diferente começa por escrever a finalidade da tarefa.</figcaption></figure><h2>Como se preparar para pensar diferente</h2>
+<p><strong>Para o profissional:</strong> passe a descrever a finalidade das suas tarefas. Aprenda a entregar contexto, pedir evidências, comparar alternativas e assumir a próxima ação. Seu conhecimento dos clientes e das exceções ajuda a avaliar a IA. Aprender a ferramenta continua útil, mas conecte esse aprendizado ao problema que você resolve.</p>
+<p><strong>Para o gestor:</strong> escolha um processo repetitivo com baixo impacto de erro e um responsável disponível. Combine o que será medido e preserve o caminho atual durante o teste. Faça a equipe participar da avaliação. Decida com evidência se vale ampliar.</p>
+<p><strong>Para o dono do negócio:</strong> procure o ponto onde a decisão demora, o cliente fica sem resposta ou os dados se perdem. A economia de preparação pode liberar capacidade. O benefício financeiro só aparece se essa capacidade reduzir custo real, melhorar a entrega ou gerar valor demonstrável.</p>
+<p><strong>Para quem cria software ou serviços:</strong> comece pela necessidade do cliente. Venda uma entrega verificável com limites claros. Teste como o seu serviço reage a dado incompleto, falha de conexão e pedido sem autorização. A interface por conversa é um componente dessa entrega.</p>
+</div></section><section id="plano"><div class="wrap"><figure class="wide topico" data-topico="plano"><img src="assets/topicos/plano.jpg" width="1200" height="676" alt="Quatro semanas, uma etapa de cada vez, com evidência para seguir." loading="lazy" decoding="async"><figcaption>Quatro semanas, uma etapa de cada vez, com evidência para seguir.</figcaption></figure><h2>Um plano de transição em 30 dias</h2>
+<p>Os prazos abaixo são uma sugestão de organização, não uma promessa de transformação completa em um mês.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Tabela com rolagem horizontal"><table>
+<thead>
+<tr>
+<th>Período</th>
+<th>Trabalho</th>
+<th>Evidência para seguir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dias 1–7</td>
+<td>Escolha um processo, acompanhe como ocorre hoje e registre tempo e erros</td>
+<td>Resultado desejado, responsável, fontes e linha de base descritos</td>
+</tr>
+<tr>
+<td>Dias 8–14</td>
+<td>Teste com dados fictícios ou aprovados, sem ações externas</td>
+<td>Cada conclusão aponta a origem; lacunas e erros ficam visíveis</td>
+</tr>
+<tr>
+<td>Dias 15–21</td>
+<td>Repita casos comparáveis com revisão humana e registre o tempo completo</td>
+<td>Qualidade pelo menos aceitável, com custo de revisão contabilizado</td>
+</tr>
+<tr>
+<td>Dias 22–30</td>
+<td>Decida se amplia, corrige ou abandona; só então planeje integrações</td>
+<td>Decisão registrada com resultados, limites e dono da próxima etapa</td>
+</tr>
+</tbody>
+</table></div>
+<p>Comece hoje: escolha uma tarefa, escreva em uma frase a decisão que ela prepara e mostre essa frase ao destinatário. Descubra se ele realmente precisa do material que você produz.</p>
+</div></section><section id="tempo"><div class="wrap"><figure class="wide topico" data-topico="tempo"><img src="assets/topicos/tempo.jpg" width="1200" height="676" alt="Medir o processo inteiro, inclusive revisão e correção." loading="lazy" decoding="async"><figcaption>Medir o processo inteiro, inclusive revisão e correção.</figcaption></figure><h2>Tempo otimizado: medir sem se enganar</h2>
+<p>Meça o processo inteiro, incluindo busca de dados, preparação, interação com IA, revisão, correção e acompanhamento. Compare casos com dificuldade e volume semelhantes. Guarde os resultados ruins também.</p>
+<p><strong>Exemplo apenas aritmético:</strong> se antes eram 120 minutos e o teste exige 35 de preparação, 20 de revisão e 15 de correção, o total é 70 minutos e a diferença é 50. Isso não é um resultado observado neste projeto. Se revisar e corrigir custar mais que o tempo anterior, o processo ainda não melhorou.</p>
+<p>Tempo liberado não se converte automaticamente em dinheiro. Meça também prazo de resposta, erros, retrabalho, resultado da ação e satisfação de quem recebe. Evite apenas acelerar a produção de materiais que ninguém usa.</p>
+</div></section><section id="limites"><div class="wrap"><figure class="wide topico" data-topico="limites"><img src="assets/topicos/limites.jpg" width="1200" height="676" alt="Cadastro duplicado ou vazio aparece antes de virar recomendação." loading="lazy" decoding="async"><figcaption>Cadastro duplicado ou vazio aparece antes de virar recomendação.</figcaption></figure><h2>Onde o processo pode falhar</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Tabela com rolagem horizontal"><table>
+<thead>
+<tr>
+<th>Situação</th>
+<th>Consequência</th>
+<th>Resposta prática</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cadastro incompleto ou duplicado</td>
+<td>Lista de clientes enganosa</td>
+<td>Mostrar registros problemáticos e revisar antes de recomendar</td>
+</tr>
+<tr>
+<td>Objetivo vago</td>
+<td>Material bonito que não ajuda ninguém</td>
+<td>Definir destinatário, decisão e critério de pronto</td>
+</tr>
+<tr>
+<td>Conclusão sem origem</td>
+<td>Confiança baseada na redação</td>
+<td>Exigir registro, período e raciocínio verificável</td>
+</tr>
+<tr>
+<td>Ação sem dono ou conexão</td>
+<td>Pedido fica parado no chat</td>
+<td>Definir responsável e conferir execução real</td>
+</tr>
+<tr>
+<td>Acesso excessivo</td>
+<td>Informação ou alteração fora do escopo</td>
+<td>Começar por leitura, limitar acesso e registrar ações</td>
+</tr>
+<tr>
+<td>Exceção ignorada</td>
+<td>Automatização repete um erro em escala</td>
+<td>Testar casos difíceis e manter interrupção e revisão</td>
+</tr>
+<tr>
+<td>Dependência de um fornecedor</td>
+<td>Dificuldade para mudar ou recuperar</td>
+<td>Preservar exportações, critérios e registro de decisões</td>
+</tr>
+</tbody>
+</table></div>
+</div></section><section id="dentro"><div class="wrap"><figure class="wide topico" data-topico="dentro"><img src="assets/topicos/dentro.jpg" width="1200" height="676" alt="Estar dentro é mudar o modo de atuar, antes de qualquer integração." loading="lazy" decoding="async"><figcaption>Estar dentro é mudar o modo de atuar, antes de qualquer integração.</figcaption></figure><h2>Você está dentro deste novo mundo?</h2>
+<p>Estar dentro começa quando você consegue apontar o resultado do trabalho, organizar o contexto, conferir a proposta e acompanhar o que aconteceu. A mudança aparece no modo de atuar nos negócios, mesmo antes de qualquer integração sofisticada.</p>
+<p>Qual preparação ocupa seu dia e já poderia começar pela decisão que ela deveria apoiar? Use o kit para testar uma hipótese e traga o resultado para a conversa no INEMA.</p></div></section><section id="migracao"><div class="wrap"><figure class="wide topico" data-topico="migracao"><img src="assets/topicos/migracao.jpg" width="1200" height="676" alt="Redesenhar o processo a partir do resultado, com menos etapas." loading="lazy" decoding="async"><figcaption>Redesenhar o processo a partir do resultado, com menos etapas.</figcaption></figure><h2>Como o kit ajuda você a migrar</h2>
+<p>A transformação começa quando você redesenha o trabalho que precisa acontecer. Defina o resultado, dê à inteligência o contexto e estabeleça as decisões e ações que ela pode assumir. Sistemas de dados e execução continuam por baixo. A pessoa passa a dedicar atenção às relações, à criação, às oportunidades e às exceções que exigem julgamento.</p>
+<h2>Do processo à nova atuação</h2>
+<ol>
+<li><strong>Mapeie o resultado.</strong> Use o modelo de migração para explicar por que o processo existe e quem precisa do resultado.</li>
+<li><strong>Defina regras e exceções.</strong> Separe a rotina delegável dos casos que precisam de uma pessoa, com limites e evidência da execução.</li>
+<li><strong>Redesenhe sua atuação.</strong> Identifique o trabalho de preparação que diminui e a relação, oportunidade ou responsabilidade que passa a desenvolver.</li>
+</ol>
+<p>Esses modelos ajudam a planejar e testar a migração. Eles não instalam agentes ou conectam sistemas. O exercício de cadastro continua como um exemplo específico de conferência; a visão é maior que esse exercício.</p>
+<h2>Exemplo: estoque e relacionamento</h2>
+<p>Na reposição de estoque, a inteligência pode acompanhar os dados e executar a rotina dentro dos limites autorizados. A pessoa negocia com fornecedores e resolve as exceções. No relacionamento com clientes, a inteligência pode coordenar o histórico e os próximos passos permitidos; a pessoa investe tempo em escuta, confiança e novas oportunidades.</p>
+<p>A automação por regras já existia. A mudança proposta é combinar regras com compreensão do contexto e coordenação das ferramentas. O benefício precisa ser verificado em cada processo, incluindo a qualidade da entrega e o tempo humano liberado para outra atuação.</p><div class="downloads"><a class="btn" href="../kit/migrar-por-resultado.md">Mapear minha migração</a><a href="../kit/regras-e-excecoes.md">Definir regras e exceções</a><a href="../kit/novas-funcoes.md">Redesenhar minha atuação</a></div></div></section><div id="tecnico" class="techhead"><div class="wrap"><span class="chip">Parte técnica</span><h2>O kit: para quem quer testar no próprio trabalho</h2><p>Você não precisa desta parte para entender o que está acima.</p></div></div><div class="techzone"><section id="kit"><div class="wrap"><h2>Escolha um processo e faça um teste conferível</h2><p>O kit contém modelos de pedido, mapa de processo, medição de tempo e registro de decisão. O exemplo usa dados fictícios e um conferidor local de regra fixa. A conversa com IA é feita na ferramenta que você já utiliza; este projeto não fornece um modelo, integração ou agente autônomo.</p><div class="downloads"><a class="btn" href="../kit-inteligencia-operacional.zip" download>Baixar o kit completo (.zip)</a><a href="../kit/pedido-por-resultado.md">Abrir o pedido e a resposta esperada</a><a href="../kit/mapa-do-processo.md">Mapa do processo</a><a href="../kit/medir-antes-depois.csv">Ficha de medição (.csv)</a><a href="../kit/decisao-e-acompanhamento.md">Registro de decisão</a></div><h3>Primeiro uso, sem terminal</h3><ol><li>Baixe o ZIP, extraia e abra a pasta <strong>kit</strong>. Os arquivos .md são textos: use um editor de texto.</li><li>Abra <strong>pedido-por-resultado.md</strong>, leia o pedido e anexe <strong>clientes-ficticios.csv</strong> na conversa de IA que você já utiliza.</li><li>Faça o pedido do exemplo, mantendo os nomes de arquivo, IDs e data de referência. Nenhuma conexão ao CRM é necessária.</li><li>Compare a resposta com “Como conferir sem código”. Esperado: C001 e C004 candidatos únicos; C003 sem data; C004 duplicado. Isso é análise do cadastro fictício, sem envio de mensagens.</li><li>Preencha o mapa de um processo real. Só use dados empresariais em uma ferramenta aprovada pela organização.</li><li>Registre tempo completo e qualidade na ficha. Decida se vale repetir antes de automatizar.</li></ol><details><summary>Conferência opcional com Python</summary><p>Requer Python 3.9 ou superior. Este comando usa apenas a biblioteca padrão, funciona sem rede e não chama IA ou API. Abra o terminal na pasta extraída, que contém a pasta kit.</p><pre>python3 kit/conferir_exemplo.py</pre><p>No Windows, com Python instalado, use:</p><pre>py -3 kit/conferir_exemplo.py</pre><p>Para usar outro arquivo no mesmo formato e uma data explícita:</p><pre>python3 kit/conferir_exemplo.py --arquivo kit/clientes-ficticios.csv --referencia 2026-11-16</pre><p>Saída esperada: 2 candidatos únicos (76 e 46 dias), 2 problemas de cadastro e 0 mensagens enviadas. Duplicatas conflitantes são retiradas da recomendação. O campo <strong>modo</strong> declara “regra fixa sem IA”.</p><p>Se o comando não existir, instale Python pela distribuição oficial do seu sistema ou faça a conferência manual acima.</p></details></div></section><section id="fontes"><div class="wrap"><h2>Fontes, autoria e limites</h2><ul><li>Visão autoral de Nei Maldaner, documento de 15/11/2026: <a href="../docs/visao-original.md">Do software à inteligência operacional</a>.</li><li><a href="https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure">OIT — exposição ocupacional à IA generativa (2025)</a>. Exposição de tarefas não é uma previsão de demissões.</li><li><a href="https://www.microsoft.com/en-us/copilot/features/work-iq">Microsoft — Work IQ</a>. Descrição de uma camada de contexto organizacional, sem medição de produtividade deste projeto.</li><li><a href="../docs/resultado-exemplo.json">Resultado real do conferidor local</a>, com cadastro inteiramente fictício.</li></ul><p>Análise editorial preparada em 16/11/2026. As previsões de mercado são cenários; o exemplo é didático. Não medimos ganhos em empresas neste projeto.</p></div></section></div></main><footer><div class="wrap"><p>Nei Maldaner · Conteúdo aberto e gratuito · v1.1.3</p><a href="https://github.com/inematds/o-fim-do-software-de-escritorio">Repositório e materiais</a> · <a href="https://inema.club">INEMA.CLUB</a> · <a href="https://inema.pro">INEMA.PRO</a></div></footer><script>(()=>{const b=document.body,t=document.getElementById('themeToggle');let saved;try{saved=localStorage.getItem('fim-software-theme')}catch(e){}if(saved==='light')b.classList.add('light');function label(){const l=b.classList.contains('light');t.textContent=l?'☾':'☀';t.setAttribute('aria-pressed',String(l))}label();t.addEventListener('click',()=>{b.classList.toggle('light');label();try{localStorage.setItem('fim-software-theme',b.classList.contains('light')?'light':'dark')}catch(e){}})})();</script></body></html>

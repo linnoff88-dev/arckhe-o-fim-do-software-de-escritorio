@@ -1,0 +1,173 @@
+{
+  "data": "2026-11-16",
+  "repo_sha": "bb5f17c",
+  "pages": {
+    "pt": 200,
+    "en": 200,
+    "es": 200
+  },
+  "portal_sha": "6910963",
+  "buscas_sha": "1de4085",
+  "pro_sha": "0e92bbc",
+  "telegram": {
+    "topico": "https://t.me/c/2238677701/6440",
+    "menu_id": 6455,
+    "leitura_de_volta": true,
+    "video_reply": {
+      "message_id": 6473,
+      "topic_id": 6440,
+      "url": "https://t.me/c/2238677701/6473",
+      "leitura_de_volta": true
+    }
+  },
+  "video": {
+    "status": "disponivel_github_pages",
+    "heygen_id": "a1d04e4ba1bc45bb982107190a06f472",
+    "canal_pedido": "lives1",
+    "publicado": true,
+    "player": "https://inematds.github.io/o-fim-do-software-de-escritorio/videos/",
+    "mp4": "https://github.com/inematds/o-fim-do-software-de-escritorio/releases/download/video-v1.0.0/o-fim-do-software-de-escritorio.mp4",
+    "release": "https://github.com/inematds/o-fim-do-software-de-escritorio/releases/tag/video-v1.0.0",
+    "revisao_visual": "aprovada",
+    "youtube_status": "versao_anterior_publicada_lives1",
+    "youtube_publicado": true,
+    "sha256": "5c0e28737ff79abcbffb00d0a256394ce742a9b0666b6c8cbd3d75b508af106d",
+    "notas": {
+      "visual": 8,
+      "ritmo": 8,
+      "marca": 9
+    },
+    "release_http": 200,
+    "player_responsivo": [
+      390,
+      1440
+    ],
+    "validacao_portal": {
+      "testes": 13,
+      "falhas": 0,
+      "build": "webpack aprovado",
+      "tsc": "aprovado"
+    },
+    "pages_validacao": {
+      "videos/": {
+        "status": 200,
+        "video_presente": true
+      },
+      "videos/legendas-pt.vtt": {
+        "status": 200,
+        "video_presente": true
+      },
+      "guia/": {
+        "status": 200,
+        "video_presente": true
+      },
+      "guia/en/": {
+        "status": 200,
+        "video_presente": true
+      },
+      "guia/es/": {
+        "status": 200,
+        "video_presente": true
+      }
+    },
+    "publicacao_escopo": "Primeira versão no lives1 e release video-v1.0.0 preservados",
+    "playback_headless": "não confirmado: Chromium sem suporte H.264; arquivo decodificado com FFmpeg",
+    "youtube_url": "https://www.youtube.com/watch?v=HzwV8EIISms",
+    "youtube_canal": "lives1",
+    "observacao_editorial": "Nei criticou foco do vídeo e autorizou publicar esta versão anterior no lives1; versão nova em produção."
+  },
+  "validacao": {
+    "portal_testes": "aprovado",
+    "portal_build": "aprovado",
+    "typescript": "aprovado",
+    "content_base_testes": 41,
+    "guia_nota": 9,
+    "idiomas": [
+      "pt",
+      "en",
+      "es"
+    ]
+  },
+  "portal_video_sha": "3543a64151ac013006ab380511453926e23d66a5",
+  "versao_nova": {
+    "status": "publicada",
+    "heygen_id": "a34d5e1bac60404bbf05e58b60ec4791",
+    "youtube_url": "https://www.youtube.com/watch?v=35dzlcnXXgQ",
+    "canal": "lives1",
+    "release": "https://github.com/inematds/o-fim-do-software-de-escritorio/releases/tag/video-v2.0.0",
+    "mp4": "https://github.com/inematds/o-fim-do-software-de-escritorio/releases/download/video-v2.0.0/fim-software-transformacao.mp4",
+    "srt": "https://github.com/inematds/o-fim-do-software-de-escritorio/releases/download/video-v2.0.0/fim-software-transformacao-pt.srt",
+    "duracao": 214.82,
+    "notas": {
+      "visual": 8,
+      "ritmo": 8,
+      "marca": 9
+    },
+    "qa": "aprovado",
+    "youtube_recibo": {
+      "data": "2026-11-16T15:23:42",
+      "canal": "lives1",
+      "video_id": "35dzlcnXXgQ",
+      "url": "https://www.youtube.com/watch?v=35dzlcnXXgQ",
+      "titulo": "O fim do software de escritório: por que o trabalho mudou",
+      "privacy": {
+        "privacyStatus": "public",
+        "selfDeclaredMadeForKids": false
+      },
+      "thumb_ok": true,
+      "legenda_ok": false,
+      "origem": "/home/nmaldaner/projetos/output/fim-software-transformacao/entrega/fim-software-transformacao.mp4",
+      "trabalho": "/home/nmaldaner/.local/share/yt-pubx/trabalhos/20261116-152226-fim-software-transformacao-mp4",
+      "sha256": "ee2053b91bf967a1fb08f78ebd85d630193fc011fe6454b88745966cfa997460"
+    },
+    "legenda_youtube": "SRT opcional indisponível: OAuth sem youtube.force-ssl; legenda gravada no vídeo e SRT real na Release",
+    "repo_sha": "6c155be",
+    "validacao_portal": {
+      "testes": 13,
+      "falhas": 0,
+      "build": "webpack aprovado",
+      "tsc": "aprovado"
+    },
+    "player_responsivo": [
+      390,
+      1440
+    ],
+    "telegram": {
+      "message_id": 6480,
+      "topic_id": 6440,
+      "url": "https://t.me/c/2238677701/6480",
+      "leitura_de_volta": true
+    },
+    "pages_validacao": {
+      "videos/": {
+        "status": 200,
+        "nova": true,
+        "primeira": true
+      },
+      "guia/": {
+        "status": 200,
+        "nova": true,
+        "primeira": true
+      },
+      "guia/en/": {
+        "status": 200,
+        "nova": true,
+        "primeira": true
+      },
+      "guia/es/": {
+        "status": 200,
+        "nova": true,
+        "primeira": true
+      },
+      "videos/legendas-pt.vtt": {
+        "status": 200,
+        "nova": true,
+        "primeira": true
+      }
+    },
+    "v3_capa": {
+      "message_id": 5008,
+      "reply_to": 5000
+    }
+  }
+}

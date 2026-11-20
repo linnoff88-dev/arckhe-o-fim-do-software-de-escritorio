@@ -1,0 +1,1 @@
+Conferência real em 16/11/2026: exemplo base C001 76/C004 46, 2 problemas; limite de 30 dias excluído, 31 incluído; data futura sinalizada; duplicata conflitante excluída; CSV sem colunas recusado. Regra fixa sem IA, sem rede.

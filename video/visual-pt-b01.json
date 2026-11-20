@@ -1,0 +1,1145 @@
+{
+  "block": "pt-b01",
+  "scenes": {
+    "1": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/capa.png",
+      "shots": [
+        {
+          "type": "capa",
+          "at": "@start",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/capa.png",
+          "zoom": [
+            1,
+            1.03
+          ],
+          "pontos": [
+            {
+              "at": "relatórios e apresentações",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.02,
+              "_s": 1.82
+            },
+            {
+              "at": "enquanto as decisões",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.02,
+              "_s": 3.4
+            },
+            {
+              "at": "atendimento ao cliente",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.02,
+              "_s": 4.92
+            },
+            {
+              "at": "O fim do",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.02,
+              "_s": 6.92
+            },
+            {
+              "at": "começa nessa perda",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.02,
+              "_s": 8.66
+            },
+            {
+              "at": "conferir o que",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.02,
+              "_s": 12.4
+            },
+            {
+              "at": "a inteligência artificial",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.02,
+              "_s": 13.12
+            }
+          ]
+        },
+        {
+          "type": "rosto",
+          "at": "Vou mostrar",
+          "txt": "Trabalhar pelo **resultado**",
+          "txt_at": "trabalhar pelo resultado"
+        }
+      ]
+    },
+    "2": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/preparacao.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "Uma empresa quer",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/preparacao.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1.05
+          ],
+          "fonte": "ilustração · preparação do trabalho",
+          "pontos": [
+            {
+              "at": "Antes de falar",
+              "focus": [
+                0.4,
+                0.6
+              ],
+              "zoom": 1.18,
+              "_s": 1.8
+            },
+            {
+              "at": "uma pessoa exporta",
+              "focus": [
+                0.35,
+                0.4
+              ],
+              "zoom": 1.18,
+              "_s": 3.1
+            },
+            {
+              "at": "Outra arruma a",
+              "focus": [
+                0.65,
+                0.55
+              ],
+              "zoom": 1.18,
+              "_s": 4.68
+            },
+            {
+              "at": "monta os slides",
+              "focus": [
+                0.5,
+                0.35
+              ],
+              "zoom": 1.18,
+              "_s": 6.62
+            },
+            {
+              "at": "a reunião para",
+              "focus": [
+                0.4,
+                0.6
+              ],
+              "zoom": 1.18,
+              "_s": 8.1
+            },
+            {
+              "at": "entre o problema",
+              "focus": [
+                0.35,
+                0.4
+              ],
+              "zoom": 1.18,
+              "_s": 11.28
+            }
+          ]
+        },
+        {
+          "type": "cinetica",
+          "at": "Existe um exército",
+          "palavras": [
+            {
+              "t": "UM EXÉRCITO DE PREPARAÇÃO",
+              "at": "Existe um exército",
+              "hl": true
+            }
+          ],
+          "size": 88
+        }
+      ]
+    },
+    "3": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/inteligencia.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "A inteligência artificial",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/inteligencia.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1.05
+          ],
+          "fonte": "ilustração · IA com acesso autorizado",
+          "pontos": [
+            {
+              "at": "consegue interpretar pedidos",
+              "focus": [
+                0.65,
+                0.55
+              ],
+              "zoom": 1.18,
+              "_s": 1.6
+            },
+            {
+              "at": "comum e consultar",
+              "focus": [
+                0.5,
+                0.35
+              ],
+              "zoom": 1.18,
+              "_s": 3.52
+            },
+            {
+              "at": "quando tem acesso",
+              "focus": [
+                0.4,
+                0.6
+              ],
+              "zoom": 1.18,
+              "_s": 5.0
+            },
+            {
+              "at": "Ela pode ajudar",
+              "focus": [
+                0.35,
+                0.4
+              ],
+              "zoom": 1.18,
+              "_s": 6.88
+            },
+            {
+              "at": "alternativas e preparar",
+              "focus": [
+                0.65,
+                0.55
+              ],
+              "zoom": 1.18,
+              "_s": 8.46
+            },
+            {
+              "at": "ação. Você deixa",
+              "focus": [
+                0.5,
+                0.35
+              ],
+              "zoom": 1.18,
+              "_s": 10.2
+            },
+            {
+              "at": "de uma tela",
+              "focus": [
+                0.4,
+                0.6
+              ],
+              "zoom": 1.18,
+              "_s": 12.1
+            },
+            {
+              "at": "e conferir o",
+              "focus": [
+                0.35,
+                0.4
+              ],
+              "zoom": 1.18,
+              "_s": 15.32
+            }
+          ]
+        },
+        {
+          "type": "cinetica",
+          "at": "Passa a orientar",
+          "palavras": [
+            {
+              "t": "VOCÊ ORIENTA E CONFERE",
+              "at": "Passa a orientar",
+              "hl": true
+            }
+          ],
+          "size": 88,
+          "av": "mini"
+        }
+      ]
+    },
+    "4": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/resultado.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "Passo um",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/resultado.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1
+          ],
+          "leitura": true,
+          "fonte": "passo 1 de 3 · exemplo fictício",
+          "pontos": [
+            {
+              "at": "exemplo. Em vez",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 1.7
+            },
+            {
+              "at": "bonita, diga: quero",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 3.56
+            },
+            {
+              "at": "os clientes que",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 5.08
+            },
+            {
+              "at": "semana. Para a",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 6.82
+            },
+            {
+              "at": "comercial decidir quem",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 8.5
+            },
+            {
+              "at": "formato será escolhido",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 11.78
+            }
+          ],
+          "av": "mini"
+        },
+        {
+          "type": "cinetica",
+          "at": "A pergunta mudou",
+          "palavras": [
+            {
+              "t": "O RESULTADO VEM PRIMEIRO",
+              "at": "A pergunta mudou",
+              "hl": true
+            }
+          ],
+          "size": 88,
+          "av": "alto-dir"
+        }
+      ]
+    },
+    "5": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/contexto.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "Passo dois",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/contexto.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1
+          ],
+          "leitura": true,
+          "fonte": "passo 2 de 3 · CSV fictício do kit",
+          "pontos": [
+            {
+              "at": "Entregue os registros",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 1.6
+            },
+            {
+              "at": "usados e explique",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 3.2
+            },
+            {
+              "at": "que a inteligência",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 5.24
+            },
+            {
+              "at": "tirou cada conclusão",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 6.62
+            },
+            {
+              "at": "informação ausente de",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 8.38
+            },
+            {
+              "at": "real. Um cadastro",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 9.92
+            },
+            {
+              "at": "desatualizado continua desatualizado",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 11.42
+            },
+            {
+              "at": "com inteligência artificial",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 13.64
+            }
+          ],
+          "av": "mini"
+        },
+        {
+          "type": "cinetica",
+          "at": "Resposta convincente",
+          "palavras": [
+            {
+              "t": "RESPOSTA CONVINCENTE ≠ PROVA",
+              "at": "Resposta convincente",
+              "hl": true
+            }
+          ],
+          "size": 88,
+          "av": "mini"
+        }
+      ]
+    },
+    "6": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/acao.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "Passo três",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/acao.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1
+          ],
+          "leitura": true,
+          "fonte": "passo 3 de 3 · modelo de processo",
+          "pontos": [
+            {
+              "at": "ficar para trás",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 1.72
+            },
+            {
+              "at": "recomendação em uma",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 3.38
+            },
+            {
+              "at": "e prazo. A",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 5.54
+            },
+            {
+              "at": "responsável aprova o",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 6.82
+            },
+            {
+              "at": "inteligência acompanha o",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 8.88
+            },
+            {
+              "at": "se estiver conectada",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 10.68
+            },
+            {
+              "at": "escolhas. A apresentação",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 13.78
+            },
+            {
+              "at": "existir quando alguém",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 15.74
+            }
+          ],
+          "av": "mini"
+        },
+        {
+          "type": "cinetica",
+          "at": "A reunião passa",
+          "palavras": [
+            {
+              "t": "A REUNIÃO DISCUTE ESCOLHAS",
+              "at": "A reunião passa",
+              "hl": true
+            }
+          ],
+          "size": 88,
+          "av": "dir"
+        }
+      ]
+    },
+    "7": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/prova.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "No exemplo do kit",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/prova.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1
+          ],
+          "leitura": true,
+          "fonte": "resultado real · conferidor sem IA",
+          "pontos": [
+            {
+              "at": "duas vezes e",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 1.64
+            },
+            {
+              "at": "faltando. Você consegue",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 3.22
+            },
+            {
+              "at": "cada linha e",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 5.36
+            },
+            {
+              "at": "recomendação errada. Essa",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 7.06
+            },
+            {
+              "at": "é a prova",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 8.74
+            },
+            {
+              "at": "se sustenta nos",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 10.76
+            },
+            {
+              "at": "tempo total, incluindo",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 13.78
+            },
+            {
+              "at": "conferir e corrigir",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 15.28
+            },
+            {
+              "at": "não prova que",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 18.14
+            }
+          ],
+          "av": "mini"
+        },
+        {
+          "type": "cinetica",
+          "at": "Depois meça",
+          "palavras": [
+            {
+              "t": "MEÇA O TEMPO TOTAL",
+              "at": "Depois meça",
+              "hl": true
+            }
+          ],
+          "size": 88,
+          "av": "alto-dir"
+        },
+        {
+          "type": "cinetica",
+          "at": "Produzir mais documentos",
+          "palavras": [
+            {
+              "t": "O NEGÓCIO MELHOROU?",
+              "at": "Produzir mais documentos",
+              "hl": true
+            }
+          ],
+          "size": 88
+        }
+      ]
+    },
+    "8": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/mercado.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "Minha visão",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/mercado.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1
+          ],
+          "leitura": true,
+          "fonte": "visão de Nei Maldaner · cenários",
+          "pontos": [
+            {
+              "at": "vivem de telas",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 1.68
+            },
+            {
+              "at": "enfrentar pressão. Algumas",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 3.22
+            },
+            {
+              "at": "podem perder mercado",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 4.94
+            },
+            {
+              "at": "podem ser reduzidas",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 6.76
+            },
+            {
+              "at": "funções podem mudar",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 8.0
+            },
+            {
+              "at": "Isso é um",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 9.64
+            },
+            {
+              "at": "lista de falências",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 11.22
+            }
+          ],
+          "av": "mini"
+        },
+        {
+          "type": "foto",
+          "at": "O estudo da",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/oit.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1
+          ],
+          "leitura": true,
+          "fonte": "OIT · exposição ocupacional · 2025",
+          "pontos": [
+            {
+              "at": "do Trabalho aponta",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 14.96
+            },
+            {
+              "at": "exposição das tarefas",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 16.34
+            },
+            {
+              "at": "e transformação do",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 18.62
+            },
+            {
+              "at": "trabalho. Não decreta",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 19.8
+            },
+            {
+              "at": "desaparecimento de todos",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 21.68
+            }
+          ],
+          "av": "mini"
+        }
+      ]
+    },
+    "9": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/arquitetura.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "O software continua",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/arquitetura.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1
+          ],
+          "leitura": true,
+          "fonte": "arquitetura proposta · texto autoral",
+          "pontos": [
+            {
+              "at": "dados, aplicando regras",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 1.58
+            },
+            {
+              "at": "executando funções. A",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 3.38
+            },
+            {
+              "at": "é de posição",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 5.4
+            },
+            {
+              "at": "pode coordenar essas",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 7.28
+            },
+            {
+              "at": "objetivo, pelas escolhas",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 10.36
+            },
+            {
+              "at": "que autoriza. Em",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 12.42
+            },
+            {
+              "at": "isso exige informação",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 14.22
+            },
+            {
+              "at": "e processos redesenhados",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 15.9
+            },
+            {
+              "at": "Comprar acesso a",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 17.76
+            },
+            {
+              "at": "não faz essa",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 19.56
+            }
+          ],
+          "av": "mini"
+        },
+        {
+          "type": "cinetica",
+          "at": "Você continua responsável",
+          "palavras": [
+            {
+              "t": "VOCÊ CONTINUA RESPONSÁVEL",
+              "at": "Você continua responsável",
+              "hl": true
+            },
+            {
+              "t": "PELO QUE AUTORIZA",
+              "at": "pelo que autoriza",
+              "hl": false
+            }
+          ],
+          "size": 88,
+          "av": "mini"
+        }
+      ]
+    },
+    "10": {
+      "takeaway": false,
+      "header": false,
+      "fundo": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/prepare.png",
+      "shots": [
+        {
+          "type": "foto",
+          "at": "Agora você tem",
+          "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/prepare.png",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1
+          ],
+          "leitura": true,
+          "fonte": "guia e kit gratuitos · INEMA.CLUB",
+          "pontos": [
+            {
+              "at": "Escolha uma preparação",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 1.84
+            },
+            {
+              "at": "defina o resultado",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 3.8
+            },
+            {
+              "at": "teste com um",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 5.42
+            },
+            {
+              "at": "conferir. O guia",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 7.12
+            },
+            {
+              "at": "O fim do",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 8.58
+            },
+            {
+              "at": "kit estão grátis",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 10.4
+            },
+            {
+              "at": "ponto club, direto",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 12.05
+            },
+            {
+              "at": "para alimentar ferramentas",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 15.52
+            },
+            {
+              "at": "já prepara sua",
+              "focus": [
+                0.5,
+                0.5
+              ],
+              "zoom": 1.0,
+              "_s": 17.08
+            }
+          ],
+          "av": "mini"
+        },
+        {
+          "type": "cinetica",
+          "at": "Você ainda organiza",
+          "palavras": [
+            {
+              "t": "VOCÊ ALIMENTA FERRAMENTAS",
+              "at": "Você ainda organiza",
+              "hl": true
+            },
+            {
+              "t": "OU TRABALHA PELO RESULTADO?",
+              "at": "ou já prepara",
+              "hl": false
+            },
+            {
+              "t": "NOVO MUNDO",
+              "at": "esse novo mundo",
+              "hl": true
+            }
+          ],
+          "size": 76,
+          "av": "mini"
+        }
+      ]
+    }
+  }
+}
