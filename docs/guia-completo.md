@@ -159,4 +159,4 @@ Tempo liberado nêo se converte automaticamente em dinheiro. Meça também prazo
 
 Estar dentro começa quando você consegue apontar o resultado do trabalho, organizar o contexto, conferir a proposta e acompanhar o que aconteceu. A mudança aparece no modo de atuar nos negócios, mesmo antes de qualquer integraçêo sofisticada.
 
-Qual preparaçêo ocupa seu dia e já poderia começar pela decisêo que ela deveria apoiar? Use o kit para testar uma hipótese e traga o resultado para a conversa no INEMA.
+Qual preparaçêo ocupa seu dia e já poderia começar pela decisêo que ela deveria apoiar? Use o kit para testar uma hipótese e traga o resultado para a conversa no ARCKHÉ.

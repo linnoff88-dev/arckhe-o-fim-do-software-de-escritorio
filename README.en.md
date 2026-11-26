@@ -2,7 +2,7 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[![The End of Office Software](guia/assets/banner-en.jpg)](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/en/)
+[![The End of Office Software](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/en/)
 
 ## What It Is
 
@@ -10,7 +10,7 @@ The End of Office Software is Nei Maldaner’s vision for working with artificia
 
 ## Free Guide and Kit
 
-Read the **[complete guide](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/en/)** and download the **[kit](https://inematds.github.io/o-fim-do-software-de-escritorio/kit-inteligencia-operacional.zip)**.
+Read the **[complete guide](https://linnoff88-dev.github.io/arckhe-/guia/en/)** and download the **[kit](https://linnoff88-dev.github.io/arckhe-/kit-inteligencia-operacional.zip)**.
 
 - [Nei Maldaner’s original vision](docs/visao-original.md) (in Portuguese).
 - [Request by outcome, example, and expected response](kit/en/pedido-por-resultado.md).
@@ -32,7 +32,7 @@ Expected: C001 (76 days) and C004 (46 days), duplicate C004, and missing date C0
 
 ## Video
 
-🎬 [Watch the video](https://inematds.github.io/o-fim-do-software-de-escritorio/videos/) — Video with Portuguese voice and subtitles.
+🎬 [Watch the video](https://linnoff88-dev.github.io/arckhe-/videos/) — Video with Portuguese voice and subtitles.
 
 ## Authorship and Sources
 
@@ -40,7 +40,7 @@ Thesis by Nei Maldaner; open educational content. Business failures and team red
 
 ## Maintenance
 
-The PT content is in docs/guia-completo.md (in Portuguese). `python3 scripts/gerar_guia.py` uses the preserved INEMA template and requires the Python markdown package. Translations: inema-traduz via subscription. Generating the guide replaces the PT HTML; preserve any video embed that has already been published. Publication via git/GitHub Pages.
+The PT content is in docs/guia-completo.md (in Portuguese). `python3 scripts/gerar_guia.py` uses the preserved ARCKHÉ template and requires the Python markdown package. Translations: ARCKHÉ-traduz via subscription. Generating the guide replaces the PT HTML; preserve any video embed that has already been published. Publication via git/GitHub Pages.
 
 ## Shift to a new role
 

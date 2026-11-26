@@ -2,7 +2,7 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[![El fin del software de oficina](guia/assets/banner-es.jpg)](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/es/)
+[![El fin del software de oficina](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/es/)
 
 ## Qué es
 
@@ -10,7 +10,7 @@ El fin del software de oficina es una visión de Nei Maldaner sobre trabajar con
 
 ## Guía y kit gratuitos
 
-Lee la **[guía completa](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/es/)** y descarga el **[kit](https://inematds.github.io/o-fim-do-software-de-escritorio/kit-inteligencia-operacional.zip)**.
+Lee la **[guía completa](https://linnoff88-dev.github.io/arckhe-/guia/es/)** y descarga el **[kit](https://linnoff88-dev.github.io/arckhe-/kit-inteligencia-operacional.zip)**.
 
 - [Visión original de Nei Maldaner (en portugués)](docs/visao-original.md).
 - [Solicitud por resultado, ejemplo y respuesta esperada](kit/es/pedido-por-resultado.md).
@@ -38,7 +38,7 @@ Resultado esperado: C001 (76 días) y C004 (46 días), duplicidad C004 y fecha f
 
 ## Video
 
-🎬 [Ver el video](https://inematds.github.io/o-fim-do-software-de-escritorio/videos/) — Video con voz y subtítulos en portugués.
+🎬 [Ver el video](https://linnoff88-dev.github.io/arckhe-/videos/) — Video con voz y subtítulos en portugués.
 
 ## Autoría y fuentes
 
@@ -46,4 +46,4 @@ Tesis de Nei Maldaner; contenido educativo abierto. Las quiebras y la reducción
 
 ## Mantenimiento
 
-El contenido PT está en docs/guia-completo.md (en portugués). `python3 scripts/gerar_guia.py` usa la plantilla INEMA preservada y requiere el paquete Python markdown. Traducciones: inema-traduz mediante suscripción. La generación de la guía reemplaza el HTML PT; conserva cualquier inserción de video que ya se haya publicado. Publicación mediante git/GitHub Pages.
+El contenido PT está en docs/guia-completo.md (en portugués). `python3 scripts/gerar_guia.py` usa la plantilla ARCKHÉ preservada y requiere el paquete Python markdown. Traducciones: ARCKHÉ-traduz mediante suscripción. La generación de la guía reemplaza el HTML PT; conserva cualquier inserción de video que ya se haya publicado. Publicación mediante git/GitHub Pages.

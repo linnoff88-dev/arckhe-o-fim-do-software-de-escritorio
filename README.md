@@ -6,7 +6,7 @@
 </div>
 
 
-[![O fim do software de escritêÂ³rio](guia/assets/banner.jpg)](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/)
+[![O fim do software de escritêÂ³rio](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 **[PortuguêÂªs](README.md) êÂ· [English](README.en.md) êÂ· [EspaêÂ±ol](README.es.md)**
 
@@ -16,7 +16,7 @@ O fim do software de escritêÂ³rio êÂ© uma visêÂ£o de Nei Maldaner
 
 ## Guia e kit gratuitos
 
-Leia o **[guia completo](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/)** e baixe o **[kit](https://inematds.github.io/o-fim-do-software-de-escritorio/kit-inteligencia-operacional.zip)**.
+Leia o **[guia completo](https://linnoff88-dev.github.io/arckhe-/guia/)** e baixe o **[kit](https://linnoff88-dev.github.io/arckhe-/kit-inteligencia-operacional.zip)**.
 
 - [VisêÂ£o original de Nei Maldaner](docs/visao-original.md).
 - [Pedido por resultado, exemplo e resposta esperada](kit/pedido-por-resultado.md).
@@ -38,7 +38,7 @@ Esperado: C001 (76 dias) e C004 (46 dias), duplicidade C004 e data ausente C003.
 
 ## VêÂ­deo
 
-ê°Å¸Å½Â¬ [Assistir ao vêÂ­deo](https://inematds.github.io/o-fim-do-software-de-escritorio/videos/) ê¢â¬â VêÂ­deo com voz e legendas em portuguêÂªs.
+ê°Å¸Å½Â¬ [Assistir ao vêÂ­deo](https://linnoff88-dev.github.io/arckhe-/videos/) ê¢â¬â VêÂ­deo com voz e legendas em portuguêÂªs.
 
 ## Autoria e fontes
 
@@ -46,7 +46,7 @@ Tese de Nei Maldaner; conteêÂºdo educacional aberto. FalêÂªncias e red
 
 ## ManutenêÂ§êÂ£o
 
-O conteêÂºdo PT estêÂ¡ em docs/guia-completo.md. `python3 scripts/gerar_guia.py` usa o template INEMA preservado e requer o pacote Python markdown. TraduêÂ§êÂµes: inema-traduz pela assinatura. A geraêÂ§êÂ£o do guia substitui o HTML PT; preserve qualquer embed de vêÂ­deo que jêÂ¡ tiver sido publicado. PublicaêÂ§êÂ£o via git/GitHub Pages.
+O conteêÂºdo PT estêÂ¡ em docs/guia-completo.md. `python3 scripts/gerar_guia.py` usa o template ARCKHÉ preservado e requer o pacote Python markdown. TraduêÂ§êÂµes: ARCKHÉ-traduz pela assinatura. A geraêÂ§êÂ£o do guia substitui o HTML PT; preserve qualquer embed de vêÂ­deo que jêÂ¡ tiver sido publicado. PublicaêÂ§êÂ£o via git/GitHub Pages.
 
 ## Migrar para a nova atuaêÂ§êÂ£o
 

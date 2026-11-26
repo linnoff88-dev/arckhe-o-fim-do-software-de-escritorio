@@ -6,7 +6,7 @@ Revisados os cinco quadros reais em 0/25/50/75/100% (`revisao-quadros/folha.jpg`
 
 - Visual: **8/10**. Diagramas nativos explicam objetivo, contexto, regras, execuçêo e exceçêo. A câmera inteira mantém nós e ligações visíveis; rótulos longos quebram dentro dos cartões. Avatar mini à direita, sem cobrir texto. O convite final cabe e fica legível.
 - Ritmo: **8/10**. Elementos entram na fala real; leitura e diagramas têm pausas deliberadas. QA sem quadros vazios e sem trechos parados. Há aviso de área lisa nos diagramas: folha conferida, mostra construçêo progressiva do mecanismo, sem sobreposiçêo ou tela vazia. Fraçêo acima do limiar: 48,4%, abaixo do teto de 50%.
-- Marca: **9/10**. Capa, selo TRANSFORMAÇêO, faixa INEMA · NOVO TRABALHO e convite ao guia/kit coerentes.
+- Marca: **9/10**. Capa, selo TRANSFORMAÇêO, faixa ARCKHÉ · NOVO TRABALHO e convite ao guia/kit coerentes.
 
 Fidelidade: a entrada trata do fim dos softwares como centro do trabalho; transformaçêo precede o kit; objetivo/contexto/regras/execuçêo autorizada e a atuaçêo humana aparecem claramente. O kit oferece modelos de migraçêo e teste; nêo instala agente nem conecta sistemas. Nenhuma fala, manifesto ou geraçêo HeyGen foi alterada.
 
