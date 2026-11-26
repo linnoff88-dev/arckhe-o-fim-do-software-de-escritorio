@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Gera uma ilustração por tópico do guia pelo Codex (image_gen, assinatura), sem texto (serve PT/EN/ES).
+# Gera uma ilustraçêo por tópico do guia pelo Codex (image_gen, assinatura), sem texto (serve PT/EN/ES).
 # Uso: scripts/gerar-imagens.sh [id ...]   (sem argumento = todas que faltam). 4 em paralelo.
 set -u
 cd "$(dirname "$0")/.."
@@ -14,7 +14,7 @@ gera() {
   prompt=$(python3 - "$id" <<'PY'
 import json,sys
 d=json.load(open('scripts/imagens.json')); i=sys.argv[1]
-print(f"Use sua ferramenta de geração de imagem (image_gen) para criar UMA imagem horizontal 16:9 e salve o PNG em guia/assets/topicos/{i}.png dentro deste diretório. Não edite nenhum outro arquivo.\n\nCena: {d['cenas'][i]}\n\nEstilo: {d['estilo']}")
+print(f"Use sua ferramenta de geraçêo de imagem (image_gen) para criar UMA imagem horizontal 16:9 e salve o PNG em guia/assets/topicos/{i}.png dentro deste diretório. Nêo edite nenhum outro arquivo.\n\nCena: {d['cenas'][i]}\n\nEstilo: {d['estilo']}")
 PY
 )
   rm -f "$png"

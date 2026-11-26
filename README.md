@@ -1,4 +1,4 @@
-﻿# O fim do software de escritÃ³rio
+ï»¿# O fim do software de escritêÂ³rio
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,51 +6,51 @@
 </div>
 
 
-[![O fim do software de escritÃ³rio](guia/assets/banner.jpg)](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/)
+[![O fim do software de escritêÂ³rio](guia/assets/banner.jpg)](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/)
 
-**[PortuguÃªs](README.md) Â· [English](README.en.md) Â· [EspaÃ±ol](README.es.md)**
+**[PortuguêÂªs](README.md) êÂ· [English](README.en.md) êÂ· [EspaêÂ±ol](README.es.md)**
 
-## O que Ã©
+## O que êÂ©
 
-O fim do software de escritÃ³rio Ã© uma visÃ£o de Nei Maldaner sobre trabalhar com inteligÃªncia artificial a partir dos objetivos do negÃ³cio. Ã‰ para profissionais, gestores e donos de empresas que gastam tempo preparando materiais, preenchendo sistemas e repetindo informaÃ§Ãµes. O guia mostra como passar desse trabalho de preparaÃ§Ã£o para um processo de decisÃ£o e execuÃ§Ã£o acompanhada. VocÃª encontra exemplos, um plano de transiÃ§Ã£o e um kit gratuito para testar um processo com dados fictÃ­cios. Para comeÃ§ar, basta ler e escolher uma tarefa que vocÃª conheÃ§a bem.
+O fim do software de escritêÂ³rio êÂ© uma visêÂ£o de Nei Maldaner sobre trabalhar com inteligêÂªncia artificial a partir dos objetivos do negêÂ³cio. êâ° para profissionais, gestores e donos de empresas que gastam tempo preparando materiais, preenchendo sistemas e repetindo informaêÂ§êÂµes. O guia mostra como passar desse trabalho de preparaêÂ§êÂ£o para um processo de decisêÂ£o e execuêÂ§êÂ£o acompanhada. VocêÂª encontra exemplos, um plano de transiêÂ§êÂ£o e um kit gratuito para testar um processo com dados fictêÂ­cios. Para comeêÂ§ar, basta ler e escolher uma tarefa que vocêÂª conheêÂ§a bem.
 
 ## Guia e kit gratuitos
 
 Leia o **[guia completo](https://inematds.github.io/o-fim-do-software-de-escritorio/guia/)** e baixe o **[kit](https://inematds.github.io/o-fim-do-software-de-escritorio/kit-inteligencia-operacional.zip)**.
 
-- [VisÃ£o original de Nei Maldaner](docs/visao-original.md).
+- [VisêÂ£o original de Nei Maldaner](docs/visao-original.md).
 - [Pedido por resultado, exemplo e resposta esperada](kit/pedido-por-resultado.md).
 - [Mapa do processo](kit/mapa-do-processo.md).
-- [MediÃ§Ã£o de tempo e qualidade](kit/medir-antes-depois.csv).
-- [Registro de decisÃ£o e acompanhamento](kit/decisao-e-acompanhamento.md).
+- [MediêÂ§êÂ£o de tempo e qualidade](kit/medir-antes-depois.csv).
+- [Registro de decisêÂ£o e acompanhamento](kit/decisao-e-acompanhamento.md).
 
 ## Executar o exemplo opcional
 
-Requer Python 3.9+. Extraia o ZIP e abra o terminal na pasta que contÃ©m kit, ou execute na raiz deste repositÃ³rio:
+Requer Python 3.9+. Extraia o ZIP e abra o terminal na pasta que contêÂ©m kit, ou execute na raiz deste repositêÂ³rio:
 
 ```bash
 python3 kit/conferir_exemplo.py
 ```
 
-Windows: `py -3 kit/conferir_exemplo.py`. Sem Python, siga a conferÃªncia manual no guia.
+Windows: `py -3 kit/conferir_exemplo.py`. Sem Python, siga a conferêÂªncia manual no guia.
 
-Esperado: C001 (76 dias) e C004 (46 dias), duplicidade C004 e data ausente C003. Zero mensagens enviadas. **Conferidor determinÃ­stico, sem IA ou rede.** Para usar IA, copie o pedido e anexe o CSV na conversa de uma ferramenta que vocÃª jÃ¡ utiliza. Nenhum ganho de produtividade empresarial foi medido.
+Esperado: C001 (76 dias) e C004 (46 dias), duplicidade C004 e data ausente C003. Zero mensagens enviadas. **Conferidor determinêÂ­stico, sem IA ou rede.** Para usar IA, copie o pedido e anexe o CSV na conversa de uma ferramenta que vocêÂª jêÂ¡ utiliza. Nenhum ganho de produtividade empresarial foi medido.
 
-## VÃ­deo
+## VêÂ­deo
 
-ðŸŽ¬ [Assistir ao vÃ­deo](https://inematds.github.io/o-fim-do-software-de-escritorio/videos/) â€” VÃ­deo com voz e legendas em portuguÃªs.
+ê°Å¸Å½Â¬ [Assistir ao vêÂ­deo](https://inematds.github.io/o-fim-do-software-de-escritorio/videos/) ê¢â¬â VêÂ­deo com voz e legendas em portuguêÂªs.
 
 ## Autoria e fontes
 
-Tese de Nei Maldaner; conteÃºdo educacional aberto. FalÃªncias e reduÃ§Ã£o de equipes sÃ£o cenÃ¡rios, nÃ£o previsÃµes garantidas. [OIT (2025)](https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure) Â· [Microsoft Work IQ](https://www.microsoft.com/en-us/copilot/features/work-iq).
+Tese de Nei Maldaner; conteêÂºdo educacional aberto. FalêÂªncias e reduêÂ§êÂ£o de equipes sêÂ£o cenêÂ¡rios, nêÂ£o previsêÂµes garantidas. [OIT (2025)](https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure) êÂ· [Microsoft Work IQ](https://www.microsoft.com/en-us/copilot/features/work-iq).
 
-## ManutenÃ§Ã£o
+## ManutenêÂ§êÂ£o
 
-O conteÃºdo PT estÃ¡ em docs/guia-completo.md. `python3 scripts/gerar_guia.py` usa o template INEMA preservado e requer o pacote Python markdown. TraduÃ§Ãµes: inema-traduz pela assinatura. A geraÃ§Ã£o do guia substitui o HTML PT; preserve qualquer embed de vÃ­deo que jÃ¡ tiver sido publicado. PublicaÃ§Ã£o via git/GitHub Pages.
+O conteêÂºdo PT estêÂ¡ em docs/guia-completo.md. `python3 scripts/gerar_guia.py` usa o template INEMA preservado e requer o pacote Python markdown. TraduêÂ§êÂµes: inema-traduz pela assinatura. A geraêÂ§êÂ£o do guia substitui o HTML PT; preserve qualquer embed de vêÂ­deo que jêÂ¡ tiver sido publicado. PublicaêÂ§êÂ£o via git/GitHub Pages.
 
-## Migrar para a nova atuaÃ§Ã£o
+## Migrar para a nova atuaêÂ§êÂ£o
 
-O kit inclui [mapa de migraÃ§Ã£o](kit/migrar-por-resultado.md), [regras e exceÃ§Ãµes](kit/regras-e-excecoes.md) e [novas funÃ§Ãµes e responsabilidades](kit/novas-funcoes.md). SÃ£o modelos de planejamento e teste, sem implantaÃ§Ã£o automÃ¡tica.
+O kit inclui [mapa de migraêÂ§êÂ£o](kit/migrar-por-resultado.md), [regras e exceêÂ§êÂµes](kit/regras-e-excecoes.md) e [novas funêÂ§êÂµes e responsabilidades](kit/novas-funcoes.md). SêÂ£o modelos de planejamento e teste, sem implantaêÂ§êÂ£o automêÂ¡tica.
 
 ---
 

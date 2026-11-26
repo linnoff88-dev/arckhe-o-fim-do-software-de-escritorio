@@ -105,7 +105,7 @@
             1,
             1.05
           ],
-          "fonte": "ilustração · preparação do trabalho",
+          "fonte": "ilustraçêo · preparaçêo do trabalho",
           "pontos": [
             {
               "at": "Antes de falar",
@@ -144,7 +144,7 @@
               "_s": 6.62
             },
             {
-              "at": "a reunião para",
+              "at": "a reuniêo para",
               "focus": [
                 0.4,
                 0.6
@@ -168,7 +168,7 @@
           "at": "Existe um exército",
           "palavras": [
             {
-              "t": "UM EXÉRCITO DE PREPARAÇÃO",
+              "t": "UM EXÉRCITO DE PREPARAÇêO",
               "at": "Existe um exército",
               "hl": true
             }
@@ -194,7 +194,7 @@
             1,
             1.05
           ],
-          "fonte": "ilustração · IA com acesso autorizado",
+          "fonte": "ilustraçêo · IA com acesso autorizado",
           "pontos": [
             {
               "at": "consegue interpretar pedidos",
@@ -242,7 +242,7 @@
               "_s": 8.46
             },
             {
-              "at": "ação. Você deixa",
+              "at": "açêo. Você deixa",
               "focus": [
                 0.5,
                 0.35
@@ -425,7 +425,7 @@
               "_s": 5.24
             },
             {
-              "at": "tirou cada conclusão",
+              "at": "tirou cada conclusêo",
               "focus": [
                 0.5,
                 0.5
@@ -434,7 +434,7 @@
               "_s": 6.62
             },
             {
-              "at": "informação ausente de",
+              "at": "informaçêo ausente de",
               "focus": [
                 0.5,
                 0.5
@@ -517,7 +517,7 @@
               "_s": 1.72
             },
             {
-              "at": "recomendação em uma",
+              "at": "recomendaçêo em uma",
               "focus": [
                 0.5,
                 0.5
@@ -562,7 +562,7 @@
               "_s": 10.68
             },
             {
-              "at": "escolhas. A apresentação",
+              "at": "escolhas. A apresentaçêo",
               "focus": [
                 0.5,
                 0.5
@@ -584,11 +584,11 @@
         },
         {
           "type": "cinetica",
-          "at": "A reunião passa",
+          "at": "A reuniêo passa",
           "palavras": [
             {
-              "t": "A REUNIÃO DISCUTE ESCOLHAS",
-              "at": "A reunião passa",
+              "t": "A REUNIêO DISCUTE ESCOLHAS",
+              "at": "A reuniêo passa",
               "hl": true
             }
           ],
@@ -645,7 +645,7 @@
               "_s": 5.36
             },
             {
-              "at": "recomendação errada. Essa",
+              "at": "recomendaçêo errada. Essa",
               "focus": [
                 0.5,
                 0.5
@@ -690,7 +690,7 @@
               "_s": 15.28
             },
             {
-              "at": "não prova que",
+              "at": "nêo prova que",
               "focus": [
                 0.5,
                 0.5
@@ -735,7 +735,7 @@
       "shots": [
         {
           "type": "foto",
-          "at": "Minha visão",
+          "at": "Minha visêo",
           "src": "/home/nmaldaner/projetos/output/o-fim-do-software-de-escritorio/media/mercado.png",
           "focus": [
             0.5,
@@ -746,7 +746,7 @@
             1
           ],
           "leitura": true,
-          "fonte": "visão de Nei Maldaner · cenários",
+          "fonte": "visêo de Nei Maldaner · cenários",
           "pontos": [
             {
               "at": "vivem de telas",
@@ -758,7 +758,7 @@
               "_s": 1.68
             },
             {
-              "at": "enfrentar pressão. Algumas",
+              "at": "enfrentar pressêo. Algumas",
               "focus": [
                 0.5,
                 0.5
@@ -827,7 +827,7 @@
             1
           ],
           "leitura": true,
-          "fonte": "OIT · exposição ocupacional · 2025",
+          "fonte": "OIT · exposiçêo ocupacional · 2025",
           "pontos": [
             {
               "at": "do Trabalho aponta",
@@ -839,7 +839,7 @@
               "_s": 14.96
             },
             {
-              "at": "exposição das tarefas",
+              "at": "exposiçêo das tarefas",
               "focus": [
                 0.5,
                 0.5
@@ -848,7 +848,7 @@
               "_s": 16.34
             },
             {
-              "at": "e transformação do",
+              "at": "e transformaçêo do",
               "focus": [
                 0.5,
                 0.5
@@ -857,7 +857,7 @@
               "_s": 18.62
             },
             {
-              "at": "trabalho. Não decreta",
+              "at": "trabalho. Nêo decreta",
               "focus": [
                 0.5,
                 0.5
@@ -918,7 +918,7 @@
               "_s": 3.38
             },
             {
-              "at": "é de posição",
+              "at": "é de posiçêo",
               "focus": [
                 0.5,
                 0.5
@@ -954,7 +954,7 @@
               "_s": 12.42
             },
             {
-              "at": "isso exige informação",
+              "at": "isso exige informaçêo",
               "focus": [
                 0.5,
                 0.5
@@ -981,7 +981,7 @@
               "_s": 17.76
             },
             {
-              "at": "não faz essa",
+              "at": "nêo faz essa",
               "focus": [
                 0.5,
                 0.5
@@ -1033,7 +1033,7 @@
           "fonte": "guia e kit gratuitos · INEMA.CLUB",
           "pontos": [
             {
-              "at": "Escolha uma preparação",
+              "at": "Escolha uma preparaçêo",
               "focus": [
                 0.5,
                 0.5
@@ -1078,7 +1078,7 @@
               "_s": 8.58
             },
             {
-              "at": "kit estão grátis",
+              "at": "kit estêo grátis",
               "focus": [
                 0.5,
                 0.5

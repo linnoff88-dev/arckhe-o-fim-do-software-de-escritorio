@@ -70,11 +70,11 @@
         "video_presente": true
       }
     },
-    "publicacao_escopo": "Primeira versão no lives1 e release video-v1.0.0 preservados",
-    "playback_headless": "não confirmado: Chromium sem suporte H.264; arquivo decodificado com FFmpeg",
+    "publicacao_escopo": "Primeira versêo no lives1 e release video-v1.0.0 preservados",
+    "playback_headless": "nêo confirmado: Chromium sem suporte H.264; arquivo decodificado com FFmpeg",
     "youtube_url": "https://www.youtube.com/watch?v=HzwV8EIISms",
     "youtube_canal": "lives1",
-    "observacao_editorial": "Nei criticou foco do vídeo e autorizou publicar esta versão anterior no lives1; versão nova em produção."
+    "observacao_editorial": "Nei criticou foco do vídeo e autorizou publicar esta versêo anterior no lives1; versêo nova em produçêo."
   },
   "validacao": {
     "portal_testes": "aprovado",

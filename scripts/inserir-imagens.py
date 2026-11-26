@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Insere a ilustração de cada tópico ao lado do h2 (float à direita, antes do h2) da seção, no guia PT, EN e ES. Idempotente."""
+"""Insere a ilustraçêo de cada tópico ao lado do h2 (float à direita, antes do h2) da seçêo, no guia PT, EN e ES. Idempotente."""
 import json, re, html
 from pathlib import Path
 from PIL import Image

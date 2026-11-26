@@ -1,13 +1,13 @@
-# Registro da decisão
+# Registro da decisêo
 
 - Data e responsável:
 - Objetivo e destinatário:
 - Fatos conferidos e fontes:
 - Lacunas e hipóteses:
 - Alternativas consideradas:
-- Decisão e motivo:
-- Ação autorizada e limites:
+- Decisêo e motivo:
+- Açêo autorizada e limites:
 - Responsável e prazo:
-- Registro de execução (link, retorno, documento):
+- Registro de execuçêo (link, retorno, documento):
 - Resultado na data de acompanhamento:
-- Próxima decisão:
+- Próxima decisêo:
